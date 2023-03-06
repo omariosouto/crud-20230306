@@ -14,10 +14,12 @@ jobs:
         uses: actions/checkout@v3
         with:
           ref: main
-      - name: "Testando esse negócio de actions"
+      - name: "Deploy"
         run: |
           # Estamos criando um SCRIPT aqui
-
-          echo "Olá pessoas da live!"
-          echo "Vamos ver se isso funciona mesmo!"
-          git checkout deploy
+          git checkout -b deploy
+          rm -rf README.md
+          echo "Minificar o HTML automaticamente"
+          git add .
+          git commit -m "DEPLOY NOVO"
+          git push origin deploy --force
