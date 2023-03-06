@@ -23,6 +23,36 @@ git add <nome do arquivo>.<extensão>
 ```
 git commit -m "nome do commit"
 ```
+```
+git commit
+# Se você cair na janela do VIM, aperte `a` e depois insira a mensagem, após isso para salvar aperte `esc` e depois `:wq`, após isso dê `ENTER` e o commit será feito normalmente
+```
+
+```
+# Nos permite ver quais são os commits que temos no nosso repositório
+git log
+```
+
+```
+# EMPURRA tudo o que temos localmente, para o remoto
+git push
+```
+
+```
+# PUXA tudo o que temos no remoto, para o local
+git pull
+```
+
+
+## O que é uma branch
+- É uma linha do tempo, onde cada commit é um ponto nessa linha do tempo
+
+## O que é um repositório
+- Um repositório é um lugar onde você guarda as branches com os commits do seu projeto
+- Você pode ter um repositório LOCAL que está LINKADO a um repositório REMOTO no GitHub
+  - Para linkar projetos usamos o `git remote` `git remote add origin git@github.com:omariosouto/crud-20230306.git`
+  - Para atualizar a branch de um repositório, usamos o `git push` para mandar as alterações locais
+
 
 ## Referencias
 - [Visulizando o Git](https://git-school.github.io/visualizing-git/)
