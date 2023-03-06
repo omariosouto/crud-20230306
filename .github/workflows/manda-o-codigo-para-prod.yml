@@ -10,5 +10,16 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+        with:
+          ref: main
       - name: "Testando esse negócio de actions"
-        run: echo "Olá pessoas da live!"
+        run: |
+          # Estamos criando um SCRIPT aqui
+
+          echo "Olá pessoas da live!"
+          echo "Vamos ver se isso funciona mesmo!"
+          git pull
+          git checkout deploy
+          ls -la
