@@ -70,3 +70,5 @@ git checkout nome-da-branch
 
 ## Referencias
 - [Visulizando o Git](https://git-school.github.io/visualizing-git/)
+- [Conteúdo de Git e GitHub para sobrevivência](https://www.youtube.com/playlist?list=PLh2Y_pKOa4Uf-cUQOVNGlz_GVHx8QYoE6)
+
