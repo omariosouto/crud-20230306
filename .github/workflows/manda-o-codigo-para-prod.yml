@@ -27,3 +27,4 @@ jobs:
           git add .
           git commit -m "DEPLOY NOVO"
           git push origin deploy --force
+          node -v
