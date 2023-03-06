@@ -46,6 +46,17 @@ git push
 git pull
 ```
 
+```
+# Cria uma nova "linha do tempo do projeto"
+git checkout -b nome-da-branch
+```
+> A branch `main`, SEMPRE deve ter o código mais atual da versão disponível do software
+> Existem estratégias de colocar código no ar, que parecem a que fizemos até aqui
+
+```
+git checkout nome-da-branch
+```
+> Troca da branch que você está para uma branch previamente criada
 
 ## O que é uma branch
 - É uma linha do tempo, onde cada commit é um ponto nessa linha do tempo
