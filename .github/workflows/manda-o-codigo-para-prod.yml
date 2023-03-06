@@ -17,6 +17,9 @@ jobs:
       - name: "Deploy"
         run: |
           # Estamos criando um SCRIPT aqui
+          git config --global user.email "13791385+omariosouto@users.noreply.github.com"
+          git config --global user.name "Mario Souto [BOT]"
+
           git checkout -b deploy
           rm -rf README.md
           echo "Minificar o HTML automaticamente"
