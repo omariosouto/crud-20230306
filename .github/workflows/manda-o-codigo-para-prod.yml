@@ -20,6 +20,4 @@ jobs:
 
           echo "Olá pessoas da live!"
           echo "Vamos ver se isso funciona mesmo!"
-          git pull
           git checkout deploy
-          ls -la
