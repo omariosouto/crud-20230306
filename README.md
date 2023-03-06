@@ -1,4 +1,5 @@
 # CRUD (20230306)
+> O que é CRUD? CRUD é um acrônimo para Create, Read, Update e Delete, que são as quatro operações básicas (criação, consulta, atualização e destruição de dados) utilizadas em bases de dados relacionais ou em gerenciamento de conteúdo.
 
 > Alteração feita remotamente, para escrever nesse arquivo use markdown https://www.markdownguide.org/cheat-sheet/
 
