@@ -1,0 +1,14 @@
+name: "Manda o código para prod"
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: "Testando esse negócio de actions"
+        run: echo "Olá pessoas da live!"
