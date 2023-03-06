@@ -1,5 +1,7 @@
 # CRUD (20230306)
 
+> Alteração feita remotamente, para escrever nesse arquivo use markdown https://www.markdownguide.org/cheat-sheet/
+
 Nosso projetinho feito com amor e carinho 💜
 
 > Inicializa o processo de monitorar as mudanças no projeto
