@@ -22,6 +22,7 @@ jobs:
 
           git checkout -b deploy
           rm -rf README.md
+          rm -rf .github
           echo "Minificar o HTML automaticamente"
           git add .
           git commit -m "DEPLOY NOVO"
